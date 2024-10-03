@@ -1,0 +1,86 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: "Kavivanar", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.box {
+	width: 30%;
+	height: 85%;
+	background-color: black;
+	border-radius: 12px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	background-color: #d9d9d9;
+	width: 90%;
+	border-radius: 12px;
+}
+
+.button12 {
+	margin-top: 5px;
+	border: solid black 5px;
+	border-style: dashed;
+	font-size: 200%;
+}
+.button123 {
+	margin-top: 5px;
+	border: solid black 5px;
+	border-style: dashed;
+	font-size: 200%;
+}
+
+h1 {
+	margin-top: 10px;
+}
+
+.image {
+	margin: 20px;
+	width: 90%;
+}
+
+.box2 {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	width: 85%;
+	background-color: #d9d9d9;
+	margin-left: 32px;
+	padding: 30px;
+	border-radius: 12px;
+	border: solid black 7px;
+}
+
+button {
+	border: solid black 2px;
+	padding: 8px;
+	border-radius: 8px;
+	font-weight: bolder;
+	background-color: #d9d9d9;
+	margin-top: 10px;
+}
+
+.borderbox2 {
+	background: radial-gradient(
+		50% 138.22% at 50% 50%,
+		#000000 0%,
+		#0084a8 20%,
+		#0015ff 40%,
+		#000000 60%,
+		#0084a8 80%,
+		#0015ff 100%
+	);
+}
